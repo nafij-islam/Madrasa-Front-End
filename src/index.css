@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+  
+@import "tailwindcss";
+
+
+
+body{
+    font-family: "Noto Sans Bengali", sans-serif;
+}
+
+/* লোডারের পুরো কন্টেইনার */
+.loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* পেজের মাঝখানের থাকার জন্য */
+  width: 100%;
+  background-color: transparent;
+}
+
+/* গোল স্পিনার ডিজাইন */
+.loader-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3; /* হালকা ছাই রঙ (ব্যাকগ্রাউন্ড রিং) */
+  border-top: 5px solid #3498db; /* নীল রঙ (ঘূর্ণায়মান অংশ) - আপনার থিম কালার অনুযায়ী পরিবর্তন করতে পারেন */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+/* লোডিং টেক্সট ডিজাইন */
+.loader-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  letter-spacing: 1px;
+  animation: pulse 1.5s infinite;
+}
+
+/* ঘোরার অ্যানিমেশন */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* টেক্সট পালস অ্যানিমেশন (অপশনাল) */
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+
+
+/* =========================
+   LAYOUT LOADER STYLE
+========================= */
+
+.loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* পেজের মাঝখানে রাখার জন্য */
+  width: 100%;
+  background-color: transparent;
+}
+
+/* গোল স্পিনার ডিজাইন */
+.loader-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3; /* হালকা ছাই রঙ */
+  border-top: 5px solid #3498db; /* থিম কালার */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+/* লোডিং টেক্সট ডিজাইন */
+.loader-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  letter-spacing: 1px;
+  animation: pulse 1.5s infinite;
+}
+
+/* স্পিন অ্যানিমেশন */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* টেক্সট পালস অ্যানিমেশন */
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
