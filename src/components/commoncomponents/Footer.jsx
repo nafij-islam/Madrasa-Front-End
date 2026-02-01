@@ -66,7 +66,7 @@ const Footer = () => {
                   <div className="bg-white p-2 rounded-full shadow-sm">
                     <FaPhone className="text-[#1F7A4D]" />
                   </div>
-                  <span>09617880099</span>
+                  <span>01725111833</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-white p-2 rounded-full shadow-sm">
@@ -78,7 +78,7 @@ const Footer = () => {
                   <div className="bg-white p-2 rounded-full shadow-sm">
                     <FaMapMarkerAlt className="text-[#1F7A4D]" />
                   </div>
-                  <span>ঢাকা, বাংলাদেশ</span>
+                  <span>রামপাশা আংশিক,কমলগঞ্জ পৌরসভা, মৌলভীবাজার।</span>
                 </div>
               </div>
             </div>

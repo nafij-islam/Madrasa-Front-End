@@ -58,11 +58,11 @@ const ContactDetail = () => {
             <div className="space-y-4">
               <div>
                 <p className="text-xs uppercase text-gray-400 font-bold tracking-widest">ফোন নম্বর</p>
-                <p className="text-xl font-black text-gray-800">09617880099</p>
+                <p className="text-xl font-black text-gray-800">01725111833</p>
               </div>
               <div>
                 <p className="text-xs uppercase text-gray-400 font-bold tracking-widest">হোয়াটসঅ্যাপ</p>
-                <p className="text-xl font-black text-gray-800">017XX-XXXXXX</p>
+                <p className="text-xl font-black text-gray-800">01725111833</p>
               </div>
               <div>
                 <p className="text-xs uppercase text-gray-400 font-bold tracking-widest">অফিসিয়াল ইমেইল</p>
