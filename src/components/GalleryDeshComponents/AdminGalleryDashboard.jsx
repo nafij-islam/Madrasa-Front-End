@@ -210,7 +210,7 @@ const AdminGalleryDashboard = () => {
       </main>
 
       {/* Mobile Bottom Nav */}
-      <div className="fixed bottom-25 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-md md:hidden">
+      <div className="fixed bottom-26 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-md md:hidden">
         <div className=" backdrop-blur-xl rounded-2xl p-3 shadow-2xl border border-slate-700/50">
           <button 
             onClick={openAdd} 

@@ -39,7 +39,7 @@ const GalleryGrid = ({ images, onEdit, onDelete }) => {
           </div>
 
           {/* Action Buttons */}
-          <div className="absolute top-3 right-3 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div className="absolute top-3 right-3 flex gap-2 opacity-100 transition-opacity duration-300">
             <button
               onClick={() => onEdit(img)}
               className="p-2.5 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg active:scale-95 transition-all"
