@@ -66,7 +66,7 @@ const Footer = () => {
                   <div className="bg-white p-2 rounded-full shadow-sm">
                     <FaPhone className="text-[#1F7A4D]" />
                   </div>
-                  <span>01725111833</span>
+                  <span>01611816603</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="bg-white p-2 rounded-full shadow-sm">
